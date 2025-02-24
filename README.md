@@ -19,5 +19,5 @@ cd SoftFloat-3e/build/Linux-RISCV-GCC
 make all
 cd ../../../TestFloat-3e/build/Linux-RISCV-GCC/
 make all
-./testfloat_gen f64_mulAdd
+./testfloat_gen -rnear_even f64_mulAdd
 ```
